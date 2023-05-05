@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pocho__calcenter {
+    background: #6D5D5A;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+
+.pocho__calcenter form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .pocho__calcenter__two {
+    display:flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #CDE79F;
+    border-radius: 10px;
+}
+
+form .pocho__calcenter__two input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    color: #6F7760;
+}
+
+form input.pocho__calcenter__three {
+    width: 145px;
+}
+
+form input.operador{
+    color: #fff;
+    background-color: #D4B376;
+    font-weight: bold;
+}
+
+form .encabezado{
+    color: #fff;
+}
+
+form input.delete {
+    color:#fff;
+    background-color: #FF7F00;
+    font-weight: bold;
+}
